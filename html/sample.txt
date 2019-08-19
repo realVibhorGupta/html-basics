@@ -1,0 +1,20 @@
+<html>
+<head>examination department</head>
+<body>
+name<input type="text" name="a"/><br>
+ father's name<input type="text" name="b"/><br>
+date of birth<input type="text" name="dob"/><br>
+gender<input type= "radio" name="g"/> male <input type= "radio" name="g"/>female
+<script type "/javascript">
+function add()
+{
+var maths=76;
+var english=84;
+var hindi=76;
+var sum=maths+english+ hindi;
+alert(c);
+}
+function percentage()
+{
+percentage=sum/300*100;
+alert(percentage);

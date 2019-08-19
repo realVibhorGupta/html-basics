@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+<table width="75%" border="1"cellpaddding="9">
+<script>
+data="<student name>"
+data=data+"<data>"
+data=data+"<value>rahul</value>
+data=data+"<value>amir</value>
+data=data+"<value>rajesh</value>
+data=data+"<value>rakesh</value>
+data=data+"<value>ramesh</value>
+data=data+"</data></student name>"
+
+data="<student id>"
+data=data+"<data>"
+data=data+"<value>1</value>
+data=data+"<value>3</value>
+data=data+"<value>2</value>
+data=data+"<value>5</value>
+data=data+"<value>4</value>
+data=data+"</data></student id>"
+
+data="<course>"
+data=data+"<data>"
+data=data+"<value>mca</value>
+data=data+"<value>mca</value>
+data=data+"<value>mca</value>
+data=data+"<value>mca</value>
+data=data+"<value>mca</value>
+data=data+"</data></course>"
+
+data="<sem>"
+data=data+"<data>"
+data=data+"<value>5</value>
+data=data+"<value>5</value>
+data=data+"<value>5</value>
+data=data+"<value>5</value>
+data=data+"<value>5</value>
+data=data+"</data></sem>"
+
+parser=new DOMParser();
+
+xdata=parser.parseFromString(data,"text/xml");
+document.write(xmldata.getelementsBytagName("value")[0].childnodes[0].nodevalue);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+					
